@@ -1,6 +1,7 @@
 <template>
-   <div class="">
+   <div class="favorite-list" :style="{'width':this.$store.state.width_s+'px'}">
        test.vue {{$route.params.testId}}
+       {{this.$store.state.width_s}}
    </div>
 </template>
 
